@@ -1,0 +1,36 @@
+{
+  "name": "wdio-docker-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio ./configs/wdio.conf.js",
+    "test:seleniumGrid": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fmiguelt/wdio-docker-demo.git"
+  },
+  "keywords": [
+    "webdriverio", 
+    "docker selenium"
+  ],
+  "author": "francisco tavares",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fmiguelt/wdio-docker-demo/issues"
+  },
+  "homepage": "https://github.com/fmiguelt/wdio-docker-demo#readme",
+  "devDependencies": {
+    "@wdio/cli": "^6.1.5",
+    "@wdio/local-runner": "^6.1.6",
+    "@wdio/mocha-framework": "^6.1.6",
+    "@wdio/spec-reporter": "^6.1.5",
+    "browserstack-local": "^1.4.5",
+    "chromedriver": "^83.0.0",
+    "wdio-chromedriver-service": "^6.0.2"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
